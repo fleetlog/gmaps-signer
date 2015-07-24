@@ -1,6 +1,6 @@
 {
   "name": "gmaps-signer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sign requests made to Google Maps for Work API",
   "main": "index.js",
   "scripts": {
