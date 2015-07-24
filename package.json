@@ -20,5 +20,6 @@
     "url": "https://fleetlog.com.au"
   },
   "homepage": "https://github.com/fleetlog/gmaps-signer",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
