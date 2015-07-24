@@ -10,11 +10,11 @@ var signGMapsURL = function(urlToSign, webSafeKey) {
 };
 
 function toWebSafeBase64(b64) {
-  return b64.replace("+", "-").replace("/", "_");
+  return b64.replace(new RegExp("\\+", "g"), "-").replace(new RegExp("/", "g"), "_");
 }
 
 function fromWebSafeBase64(b64) {
-  return b64.replace("-", "+").replace("_", "/");
+  return b64.replace(new RegExp("-", "g"), "+").replace(new RegExp("_", "g"), "/");
 }
 
 module.exports = signGMapsURL;
